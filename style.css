@@ -1,28 +1,30 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    margin: 20px;
     height: 100vh;
+    width: 100vw;
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #ff8500;
 }
 
 
-h1{
+h1 {
     text-align: center;
     padding: 40px 0px 30px 0px;
     font-size: 25px;
 }
 
 .fundo {
-    width: 477px;
+    width: 360px;
     height: 305px;
     border-radius: 10px;
     padding: 0px 50px 10px 50px;
@@ -47,7 +49,7 @@ input {
     outline: none;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
 
@@ -63,10 +65,28 @@ button {
     cursor: pointer;
 }
 
-#resultadoIdade{
+#resultadoIdade {
     width: 100%;
     margin-top: 15px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: greenyellow;
+}
+
+.icon{
+    width: 150px;
+    height: 50px;
+    margin-top: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+i{
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 50px;
 }
